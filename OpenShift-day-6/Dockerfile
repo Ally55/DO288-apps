@@ -1,4 +1,4 @@
-FROM node:latest
+FROM nodejs:latest
 
 RUN mkdir /app-day-6
 
