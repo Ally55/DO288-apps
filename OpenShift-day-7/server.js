@@ -10,7 +10,7 @@ var con = mysql.createConnection({
  host: localhost,
  user: alexandra,
  password: parola,
- database: exampleDB
+ database: test
 });
 con.connect(function(err) {
  if (err) throw err;
