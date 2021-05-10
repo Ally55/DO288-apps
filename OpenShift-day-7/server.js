@@ -8,9 +8,9 @@ const port = 3000
 app.get('/', (req, res) =>{
 var con = mysql.createConnection({
  host: 'openshift-day-7-mysql.day-7-openshift.svc',
- user: MYSQL_USER,
- password: MYSQL_PASSWORD,
- database: MYSQL_DATABASE
+ user: 'alexandra',
+ password: 'parola' ,
+ database: 'test'
 });
 con.connect(function(err) {
  if (err) throw err;
