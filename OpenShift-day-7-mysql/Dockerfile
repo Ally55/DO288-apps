@@ -4,3 +4,5 @@ ENV MYSQL_DATABASE=test
 ENV MYSQL_USER=alexandra
 ENV MYSQL_PASSWORD=parola
 ENV MYSQL_HOST=mysql
+
+COPY test.sql /app-day-7
