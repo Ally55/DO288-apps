@@ -7,4 +7,4 @@ ENV MYSQL_HOST=localhost
 
 EXPOSE 3000
 
-COPY test.sql /app-day-7
+COPY test.sql /opt/app-root/src
