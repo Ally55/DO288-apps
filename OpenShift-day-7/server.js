@@ -9,7 +9,7 @@ app.get('/', (req, res) =>{
 var con = mysql.createConnection({
  host: 'openshift-day-7-mysql.day-7-openshift.svc',
  user: 'alexandra',
- password: 'parola' ,
+ password: 'parola',
  database: 'test'
 });
 con.connect(function(err) {
