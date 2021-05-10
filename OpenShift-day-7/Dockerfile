@@ -1,5 +1,7 @@
 FROM node:latest
 
+RUN mkdir /app-day-7
+
 WORKDIR /app-day-7
 
 COPY server.js /app-day-7
