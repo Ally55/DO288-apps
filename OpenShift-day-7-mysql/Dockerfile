@@ -1,11 +1,6 @@
 FROM mysql:latest
 
-RUN mkdir /app-day-7-mysql
-
-WORKDIR /app-day-7-mysql
-
-COPY test.sql /app-day-7-mysql
-
-EXPOSE 3000
-
-CMD ["mysql"]
+ENV MYSQL_DATABASE=test
+ENV MYSQL_USER=alexandra
+ENV MYSQL_PASSWORD=parola
+ENV MYSQL_HOST=mysql
